@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    }
+
+
+/*index.html*/
+.cabeçalho {
+    color: white;
+    background-color: rgb(4, 49, 89);
+    text-align: center;
+    padding: 1px;
+}
+/*CONFIGURAÇÕES PARA CRIAÇÃO DE MENU NA HORIZONTAL*/
+#menu ul {
+    padding: 0px;
+    margin: 0px 0px 20px;
+    background-color: white;
+    list-style:none;
+}
+#menu ul li {display: inline;}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display:inline-block;
+}
+div {
+    text-align: center;
+}
+/*CONFIGURAÇÕES RODAPE*/
+footer {
+    color: white;
+    background-color: rgb(4, 49, 89);
+    text-align: center;
+}
+.imagem img{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+   
+.centro{
+    
+    padding: 40px 50px 50px 50px ;
+    margin: 50px 50px 500px 50px;
+    
+}
+
+
+
+/*ctrl-estoque.html*/
+
+.cabeçalho-estoque {
+    color: white;
+    background-color: rgb(4, 49, 89);
+    text-align: center;
+    padding: 1px;
+}
+
+#menu-estoque ul {
+    padding: 0px;
+    margin: 0px 0px 20px;
+    background-color: white;
+    list-style:none;
+}
+#menu-estoque ul li {display: inline;}
+
+#menu-estoque ul li a {
+    padding: 2px 10px;
+    display:inline-block;
+}
+div {
+    text-align: center;
+}
+
+.img-table img{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.titulo{
+    text-align: center;
+}
+
+/*add-produto.html*/
+
+.cabeçalho-produto {
+    color: white;
+    background-color: rgb(4, 49, 89);
+    text-align: center;
+    padding: 1px;
+}
+
+#menu-produto ul {
+    padding: 0px;
+    margin: 0px 0px 20px;
+    background-color: white;
+    list-style:none;
+}
+#menu-produto ul li {display: inline;}
+
+#menu-produto ul li a {
+    padding: 2px 10px;
+    display:inline-block;
+}
+
+.titulo-produto{
+    text-align: center;
+
+/*funcionarios.html*/
+
+.cabeçalho-funcionarios {
+    color: white;
+    background-color: rgb(4, 49, 89);
+    text-align: center;
+    padding: 1px;
+}
+
+#menu-funcionarios ul {
+    padding: 0px;
+    margin: 0px 0px 20px;
+    background-color: white;
+    list-style:none;
+}
+#menu-funcionarios ul li {display: inline;}
+
+#menu-funcionarios ul li a {
+    padding: 2px 10px;
+    display:inline-block;
+}
+
+.titulo-funcionarios{
+    text-align: center;
+
+
