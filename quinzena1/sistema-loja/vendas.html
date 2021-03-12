@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>vendas</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body class="body-vendas">
+        <header class='cabeçalho'>
+            <h1><b>Mundo dos Pet's</b></h1>
+        </header>
+
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="ctrl-estoque.html">Controle de Estoque</a></li>
+                <li><a href="add-produto.html">Adicionar Produto</a></li>
+                <li><a href="funcionarios.html">Funcionários</a></li>
+                <li><a href="vendas.html">Vendas</a></li>
+                <li><a href="historico-vendas.html">Histórico de Vendas</a></li>
+            </ul>
+        </div>
+        
+            <p class="legenda">Insira abaixo os produtos do seu carrinho de compras</p>
+
+        <form class="vendas" action="/historico-vendas.html">
+
+            <div class="label-desc">
+                <label for="descriçao">Descrição Produto:</label>
+                <input type="text" id="descriçao" placeholder="Informe o produto">
+            </div> 
+
+            <div>
+                <label for="quantidade">Quantidade:</label>
+                <input type="text" id="quantidade" placeholder="Insira a quantidade">
+            </div>    
+
+            <div>
+                <label for="Preço">Preço:</label>
+                <input type="text" id="preço" placeholder="Preço do Produto">  
+            </div>
+
+            <div>
+                <label for="total">Valor Total:</label>
+                <input type="text" id="total" placeholder="Total Venda">
+            </div>
+            
+            <div>
+                <label for="hora">Data e hora da venda:</label>    
+                <input type="datetime-local" >   
+            </div>
+            
+            <div>
+                <label for="vendedor">Vendedor:</label> 
+                <input type="text" id="vendedor" placeholder="Nome vendedor">
+            </div>
+
+            <div>
+                <label for="pagamento">Forma de Pagamento:</label> 
+                <select>
+                    <option>Selecione</option>
+                    <option>Dinheiro</option>
+                    <option>Cartão</option>   
+                </select>
+            </div>
+
+            <input class="submit" type="submit" value="Concluir Venda">
+        
+        </form>
+        
+        
+        <div>
+            <p>Siga-nos nas redes sociais!</p>
+
+            <footer class="imagem">
+                <img src="https://image.flaticon.com/icons/png/512/25/25305.png"/>
+                <img src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+                <img src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
+            </footer>
+        </div>
+    </body>
+</html>
