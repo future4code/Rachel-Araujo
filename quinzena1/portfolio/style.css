@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #070223;
+}
+
+/*MENU*/
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline;
+    padding: 0px 50px;
+}
+
+#menu ul li a {
+    padding: 50px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+/*INDEX.HTML*/
+.formacao {
+    position: absolute;
+    width: 345px;
+    height: 600px;
+    left: 127px;
+    top: 120px;
+    background: #2980B9;
+    border-radius: 22px;
+    margin: 0px 0px 0px 150px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: DM Sans;
+    
+}
+
+.texto1{
+    
+    padding-top: 70px;
+    justify-content: center;
+    align-items: center;
+    
+    white-space: pre-line;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.apresentacao{
+    position: absolute;
+    width: 345px;
+    height: 600px;
+    left: 549px;
+    top: 120px;
+    background: #65C7F7;
+    border-radius: 22px;
+    margin: 0px 0px 0px 150px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.texto2{
+ 
+    padding:230px 10px 0px 10px;
+    justify-content: center;
+    align-items: center;
+    
+    white-space: pre-line;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+
+}
+
+.avatar{
+   
+    position:absolute;
+    width: 279px;
+    height: 418px;
+    left: 737px;
+    top: 100px;
+}
+
+.projetos {
+    position: absolute;
+    width: 345px;
+    height: 600px;
+    left: 972px;
+    top: 120px;
+    background: #2980B9;
+    border-radius: 22px;
+    margin: 0px 0px 0px 150px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: DM Sans;
+    font-weight: 500;
+
+}
+
+.links{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top:90px;
+    white-space: pre-line;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    right: 30px;
+}
+
+/*RODAPÉ*/
+.footer{
+    position: absolute;
+    width: 250px;
+    height: 23px;
+    left:750px;
+    top: 800px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+   
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.git{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 720px;
+    top: 710px;
+    padding: 0px 5px 30px 15px;
+
+}
+
+.instagram{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 740px;
+    top: 690px;
+    padding: 0px 5px 5px 0px;
+}
+.facebook{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 760px;
+    top: 690px;
+    padding: 0px 5px 5px 0px;
+}
+
+.linkedin{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 780px;
+    top: 690px;
+    padding: 0px 5px 5px 0px;
+}
+
+/*PORTFOLIO.HTML*/
+#menu-portfolio ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+#menu-portfolio ul li {
+    display: inline;
+    padding: 0px 50px;
+}
+
+#menu-portfolio ul li a {
+    padding: 50px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+#menu-contato ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+#menu-contato ul li {
+    display: inline;
+    padding: 0px 50px;
+}
+
+#menu-contato ul li a {
+    padding: 50px 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.projeto1{
+    position: absolute;
+    width: 828px;
+    height: 363px;
+    top: 120px;
+    padding: 0px 5px 0px 0px;
+    text-align: center;
+}
+
+.texto-projeto1{
+    padding-top: 25px;
+    padding-left: 420px;
+    width: 828px;
+    text-align: center;
+   
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: grey;
+}
+.titulo-projeto1{
+    top: auto;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+}
+
+.projeto2{
+    position: absolute;
+    width: 828px;
+    height: 363px;
+    top: 380px;
+    padding: 0px 5px 0px 0px;
+    text-align: center;
+
+}
+
+.texto-projeto2{
+    padding-top: 25px;
+    padding-left: 420px;
+    width: 828px;
+    text-align: center;
+   
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: grey;
+}
+
+.titulo-projeto2{
+    margin-top: 400px;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+
+}
+
+.footer-texto{
+
+    position: relative;
+    width: 250px;
+    height: 23px;
+    left:750px;
+    top: 430px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+   
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.footer-portfolio{
+    position: absolute;
+    width: 250px;
+    height: 23px;
+    left:10px;
+    top: 510px;
+  
+}
+
+/*CONTATO.HTML*/
+
+.titulo-formulario{
+    margin-top: 100px;
+    font-family: DM Sans;
+    font-style: bold;
+    font-weight: 500;
+    color: grey;
+    margin-left:150px ;
+    
+}
+
+form {
+    position:relative;
+    left:150px;
+    top:40px;
+    width:600px;
+    height:455px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);   
+}
+
+li{
+    list-style-type: none; 
+    padding-top: 10px;
+    
+}
+
+/*fundo formulario*/
+ul{
+    padding-top:20px; 
+    padding-left: 45px;
+}
+
+#nome {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 5px;
+
+    width:500px;
+}
+
+#email{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 5px;
+
+    width:500px;
+}
+
+#mensagem{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+    word-wrap:  normal;
+    border-radius: 5px;
+
+    width: 28em;
+    height:200px
+}
+
+.button{
+    font-family: DM Sans;
+    font-style: bold;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-left: 440px;
+    padding:3px 6px 3px 6px;
+
+    background:#070223;
+    color: white;
+    border-radius: 5px;
+}
+
+.foto{
+    position:absolute;
+    top: 250px;
+    left: 1000px;
+
+
+    width: 519px;
+    height:514px
+    
+}
+
+h4{
+    position:absolute;
+    top: 780px;
+    left: 1080px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+    color: grey;
+   
+}
+
+.texto-rodape{
+
+    position: relative;
+    width: 250px;
+    height: 23px;
+    left:750px;
+    top: 200px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight:500;
+    font-size: 18px;
+    line-height: 23px;
+   
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.footer-contato{
+    position: absolute;
+    width: 250px;
+    height: 23px;
+    left:10px;
+    top: 250px; 
+}
+
+
