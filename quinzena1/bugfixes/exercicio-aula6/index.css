@@ -48,6 +48,7 @@ div img {
     color: white;
     text-align: center;
     margin: 0 auto;
+    border-color: transparent;
     
     
     
@@ -55,6 +56,7 @@ div img {
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    border-color: transparent;
 }
 
 .container {
@@ -177,7 +179,7 @@ td button:active{
     background-color: white;
     width: 100px;
     height: 20px;
-    border: 1px solid black;
+    border: transparent;
     border-radius: 5px;
     font-size: 10px;
     color: black;
