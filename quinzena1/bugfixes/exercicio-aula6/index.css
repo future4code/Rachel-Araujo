@@ -139,6 +139,14 @@ td button:active{
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    
+}
+
+.container-do-search input{
+    border-top: thin;
+    border-left: thin;
+    border-right: thin;
+    border-width: 3px;
 }
 
 .container-do-search img{
