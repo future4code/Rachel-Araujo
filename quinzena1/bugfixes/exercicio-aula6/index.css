@@ -133,6 +133,12 @@ td button {
     height: 100px;
 }
 
+.container-do-search img{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
 
 #back-button {
     background-color: white;
