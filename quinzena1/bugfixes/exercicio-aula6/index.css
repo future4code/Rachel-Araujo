@@ -173,6 +173,10 @@ td button:active{
     height: 30px;
     background-color: transparent;
 }
+.container-do-search img:hover{
+    background-image: black;
+    opacity : 0.5
+}
 
 
 #back-button {
