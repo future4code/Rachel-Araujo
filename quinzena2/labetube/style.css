@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: grid;
+    grid-template-rows:4fr;
+
+    background-color: red;
+    color: white;
+}
+
+
+
+.main{
+    display:grid;
+    grid-template-rows:2fr;
+    grid-template-columns: 4fr;
+    row-gap: 100px;
+    column-gap: 100px;
+    
+
+}
+
+video{
+    display:grid;
+
+    grid-template-rows:1fr;1fr; 1fr;
+    grid-template-columns: 1fr;
+    width: 400px;
+    height: 400px;
+   
+}
+
+
+footer{
+    background-color: red;
+    color:white;
+    padding: 50px;
+   
+    
+}
+
