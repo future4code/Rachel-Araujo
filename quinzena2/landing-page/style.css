@@ -200,6 +200,7 @@ header> form{
     justify-items: center;
 
     padding-left: 25px;
+   
     column-gap: 30px;
     row-gap: 10px;
 
@@ -207,12 +208,16 @@ header> form{
     height: 250px;
 }
 
-footer{
+footer {
     display: grid;
-    grid-row: 6;
-    grid-column: 1/span 4;
+    grid-row: 5;
+    grid-column: 1/-1;
 
-    padding-top: 10px;
+  
+
+    width: 90vw;
+    height:10vh;
 }
+
 
 }
