@@ -190,7 +190,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"result\": {\r\n        \"quantity\": \"number\", \r\n        \"list\": [\r\n            {\r\n                \"id\": \"string\", \r\n                \"name\": \"string\" \r\n            }\r\n        ]\r\n    }\r\n}",
+					"raw": "{\r\n    \"result\": {\r\n        \"quantity\": \"number\", \r\n        \"list\": [\r\n            {\r\n                \"id\": \"string\", \r\n                \"name\": \"ROCK INTERNACIONAL\" \r\n            }\r\n        ]\r\n    }\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
