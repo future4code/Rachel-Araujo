@@ -1,19 +1,46 @@
 import React from 'react';
-import styled from 'styled-components'
-import axios from "axios";
+import styled from 'styled-components';
 import HomeCadastro from './components/HomeCadastro';
 import ListaPlaylist from './components/ListaPlaylist';
 
+const Fundo = styled.body`
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  background:black;
+}
+`
+const Header = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  color: #1fd660;
+  font-size: 40px;
+  font-weight: bold;
+  background:black;
+  height: 20vh;
+  `
+
+
+
+const Principal = styled.div `
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    background:black;
+    height:77vh;
+    border: 1px solid #1fd660;
+    
+
+`
 
 export default class App extends React.Component {
   state = {
     telaAtual: "cadastro",
-    inputPlaylist: ""
+    
   }
-
-  // novaPlaylist = (event) => {
-  //   this.setState({inputPlaylist: event.target.value})
-  // }
 
   selecionaTela = () => {
     switch (this.state.telaAtual){
@@ -38,18 +65,15 @@ export default class App extends React.Component {
 
   render(){
     return (
-      <div>
-        <p>HEADER</p>
-
-        <div>
-          <p>CRIAR PLAYLIST</p>
-          {this.selecionaTela()}
       
-        </div>
-      </div>
+     <Fundo>
   
-    
-  
+        <Header>Labefy! O maior portal de músicas do Brasil!</Header>
+
+        <Principal>{this.selecionaTela()}</Principal>
+
+
+      </Fundo>
 
 
   );
