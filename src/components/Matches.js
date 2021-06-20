@@ -202,7 +202,6 @@ export default function Matches(props) {
             </Footer>
     
         </div>
-      )      
-    
+      )         
 }
 

@@ -28,7 +28,6 @@ export default function App(){
     setPaginaAtual("matches")
 
   }
-
   
   return (
     
