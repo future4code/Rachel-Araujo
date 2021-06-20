@@ -164,8 +164,7 @@ const CardPerfil = styled.div`
     margin: 10px 16px;
     background-color: rgb(248, 248, 255);
     &:hover{
-        box-shadow: 5px 10px 18px gray;
-        
+        box-shadow: 5px 10px 18px gray;     
     }
   
 `
