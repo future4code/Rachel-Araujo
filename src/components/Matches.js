@@ -177,18 +177,18 @@ export default function Matches(props) {
     })
 
         return (
-         <div>
+        <div>
 
             <Header>
 
                 <H1>Seus Matches:</H1>
 
                 <Botao> 
-                 <IconeTela src={matche} onClick={props.irParaInicio}/>
+                    <IconeTela src={matche} onClick={props.irParaInicio}/>
                 </Botao>
 
                 <Botao> 
-                <IconeTela src={excluir} onClick={limparMatches}/>
+                    <IconeTela src={excluir} onClick={limparMatches}/>
                 </Botao>
 
             </Header>
@@ -197,13 +197,12 @@ export default function Matches(props) {
                {imprimeMatch}
             </CardPerfil>
 
-        <Footer>
-          <p>Bate papo - Amizade - Encontro</p>
-        </Footer>
+            <Footer>
+                <p>Bate papo - Amizade - Encontro</p>
+            </Footer>
     
-         </div>
-      )
-        
+        </div>
+      )      
     
 }
 

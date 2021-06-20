@@ -14,7 +14,6 @@ const Foto = styled.img`
     border:none;
     box-sizing: border-box;
     border-radius: 8px;
-
     
 `
 
@@ -97,8 +96,6 @@ const ListaMenu = styled.li`
     color: rgb(248, 248, 255);
     list-style-type: none;
     padding-left: 35px;
-
-   
        
     }
 
@@ -193,9 +190,6 @@ const TituloPerfil=styled.p`
     color: black;
     font: bold 18px arial, sans-serif; 
     `
-
-
-
  
 export default function Perfis(props) {
     
@@ -209,8 +203,8 @@ export default function Perfis(props) {
             })
         }
 
-    useEffect(() => {
-        {perfil()}
+        useEffect(() => {
+            {perfil()}
     },[])
 
     const deuMatch = () => {
@@ -245,7 +239,7 @@ export default function Perfis(props) {
 
     return (
    
-    <div>
+        <div>
          
         <Header>
         <Menu>
@@ -279,17 +273,16 @@ export default function Perfis(props) {
                     <Icone src={nao} onClick={(id)=>naoDeuMatch(dados.profile.id)}/>
                 </BotaoFormato>  
             </BotaoPerfil>
-      </CardPerfil>   
+        </CardPerfil>   
 
-      <Footer>
+        <Footer>
           <p>Bate papo - Amizade - Encontro</p>
-      </Footer>
+        </Footer>
         
-  
-    </div>
+        </div>
     
     );
 
-    }
+}
   
    

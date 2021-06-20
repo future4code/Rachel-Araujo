@@ -3,9 +3,6 @@ import styled from 'styled-components';
 import Perfis from './components/Perfis.js';
 import Matches from './components/Matches.js';
 
-
-
-
 export default function App(){
   
   const[paginaAtual, setPaginaAtual] = useState("inicio")
@@ -31,7 +28,6 @@ export default function App(){
     setPaginaAtual("matches")
 
   }
-
 
   
   return (
