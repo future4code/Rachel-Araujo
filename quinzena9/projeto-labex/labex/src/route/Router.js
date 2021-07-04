@@ -10,11 +10,17 @@ import { AdminHomePage } from '../pages/AdminHomePage.js';
 import { TripDetailsPage } from '../pages/TripDetailsPage.js';
 import { CreateTripPage } from '../pages/CreateTripPage.js';
 
+const Container = styled.div`
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+`
 
 export const Router = ()=> {
   return (
       <BrowserRouter>
         <Switch>
+        <Container>
           <Route exact path={'/'}>
             <HomePage/>
           </Route>
@@ -39,9 +45,10 @@ export const Router = ()=> {
             <CreateTripPage/>
           </Route>
 
-          <Route exact path={'/admin/trips/:id'}>
+          <Route exact path={'/tripDetails/:id'}>
             <TripDetailsPage/>
           </Route>
+          </Container>  
         </Switch>
       </BrowserRouter>
       

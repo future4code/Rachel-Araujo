@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useHistory } from 'react-router-dom'
 import astronauta from '../img/astronauta.png';
+import {Button} from '@material-ui/core';
+
+
 
 
 const Astronauta = styled.img`
@@ -16,6 +19,12 @@ const Astronauta = styled.img`
     
 `
 
+const Buttons = styled.div`
+  display:grid;
+  grid-auto-flow:column;
+  gap:20px;
+`
+
 export const HomePage = ()=>{
     const history = useHistory()
 
@@ -23,14 +32,17 @@ export const HomePage = ()=>{
         history.push('/trips/list')
     }
 
-    const goToAdminHomePage = () => {
-        history.push('/admin/trips/list')
+    const goToLogin = () => {
+        history.push('/login')
     }
     return (
        <div>
            <Astronauta src={astronauta}/>
-        <button onClick={goToListTripPage}>Ver Viagens</button>
-        <button onClick={goToAdminHomePage}>Área Administrativa</button>
+        <Buttons>
+          <Button variant= {'outlined'} color={'primary'} onClick={goToListTripPage}>Ver Viagens</Button>
+          <Button variant= {'outlined'} color={'primary'} onClick={goToLogin}>Área Administrativa</Button>
+        </Buttons>   
         </div>
       );
     };
+  

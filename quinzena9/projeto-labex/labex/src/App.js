@@ -2,14 +2,16 @@ import React, { useEffect, useState } from 'react';
 import {Switch, Route, BrowserRouter} from 'react-router-dom';
 import styled from 'styled-components';
 import { Router } from './route/Router.js';
+import Typography from '@material-ui/core/Typography'
+
 
 const Header = styled.header`
-    background: #53F439;
+    background: #4682B4;
     width: 1440px;
     height: 200px;
 `
 const H1 = styled.h1`
-   color: #0C5600;
+   color: #DCDCDC;
   
    
    font-family: Roboto;
@@ -17,6 +19,7 @@ const H1 = styled.h1`
    font-weight: bold;
    font-size: 36px;
    line-height: 42px;
+   padding:20px;
    
    text-decoration-line: line-through;
 `
